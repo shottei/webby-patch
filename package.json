@@ -1,0 +1,31 @@
+{
+  "name": "webby-patch",
+  "version": "1.0.2",
+  "description": "Use APi from popular Websites, moderate your server, and have fun with the commands!",
+  "main": "src/server.js",
+  "scripts": {
+    "patch": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shottei/webby.git"
+  },
+  "keywords": [
+    "Webby",
+    "patch",
+    "util",
+    "misc",
+    "moderation"
+  ],
+  "author": "Apexin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shottei/webby/issues"
+  },
+  "homepage": "https://github.com/shottei/webby#readme",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "imageapi.js": "^1.0.12"
+  }
+}
